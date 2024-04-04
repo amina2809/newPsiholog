@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Психолог Яна Капля</title>
+	<link rel="stylesheet" href="./css/main.css" />
+	<link rel="icon" href="./images/favicon.png" sizes="16x16">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header class="header-page banner">
+		<div class="header-top" id="HeaderTop">
+			<script>
+				window.addEventListener('scroll', function () {
+					var header = document.getElementById('HeaderTop');
+					var scrollPosition = window.scrollY;
+					var changeColorPosition = 100;
+					var blackColor = '#fff';
+					var transparentColor = 'transparent';
+					if (scrollPosition > changeColorPosition) {
+						header.style.backgroundColor = blackColor;
+					} else {
+						header.style.backgroundColor = transparentColor;
+					}
+				});
+			</script>
+			<div class="header-top__wrapper-top container">
+				<a class="header-top__logo-link logo" href="#">
+					<img class="logo__img" src="./images/logo.png" alt="Logo" width="32" height="32">
+					<div class="logo__div-text">
+						<span class="logo__title">Психолог</span>
+						<p class="logo__subtitle">Яна Капля</p>
+					</div>
+				</a>
+				<ul class="header-top__menu menu">
+					<li class="menu__item">
+						<a class="menu__link" href="#about-me">Про мене</a>
+					</li>
+					<li class="menu__item menu__item--arrow">
+						<a class="menu__link" href="#servises">Послуги</a>
+						<ul class="menu__item--hover">
+							<li class="menu__item menu__item--margin">
+								<a class="menu__link" href="#">Індивідуальний психолог</a>
+							</li>
+							<li class="menu__item menu__item--margin">
+								<a class="menu__link" href="#">Психолог онлайн</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Сімейний психолог</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#prices">Ціни</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#education">Дипломи</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#articles">Статті</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#reviews">Відгуки</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#contant">Контакти</a>
+					</li>
+				</ul>
+				<div class="header-top__btn-div btn">
+					<button class="btn__outline" type="submit">Записатися</button>
+					<button class="btn__hamburger" type="button">
+						<img class="" src="./images/hamburger.png" alt="Hamburger" width="30" height="23">
+					</button>
+				</div>
+				<ul class="header-top__lang-toggle header-top__lang-toggle--hover">
+					<li class="menu__item menu__item--arrow">
+						<a class="menu__link" href="#">UA</a>
+					</li>
+					<li class="menu__item item__lang-toggle--hover">
+						<a class="menu__link" href="#">RU</a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+
+		<div class="header-bottom container" id="about-me">
+			<img class="header-bottom__img" src="./images/photo-about-me.jpg" alt="About me">
+			<div class="header-bottom__wrapper-bottom about-me">
+				<span class="about-me__nav site-navigation">
+					<a class="about-me__link link-navigation" href="#">Головна</a>
+					<img class="about-me__icon icon-arrow--right" src="./images/arrow-right.svg" alt="Arrow" width=""
+						height="">
+					<p class="about-me__text page">Про мене</p>
+				</span>
+				<h1 class="about-me__title title">Про мене</h1>
+				<div class="about-me__text-wrap">
+					<p class="about-me__text text">Друзі, вітаю вас! Мене звати Яна Капля!</p>
+					<p class="about-me__text text">Я - практикуючий психолог, транзактний аналітик, психодіагност.
+						Психологія- це стиль мого життя і моє призначення.</p>
+					<p class="about-me__text text">Моя ціль- це ваш результат, до якого ми разом ідемо!</p>
+					<p class="about-me__text text">Моя унікальність як спеціаліста в тому, що я є психодіагностом- читаю
+						людей по зовнішності. Це дає змогу бачити ваші
+						таланти, сильні сторони, сховані можливості. Обʼєднуємо ваші природні ресурси і бажання - так
+						ефективно приходимо до
+						результату.
+					</p>
+					<p class="about-me__text text">З радістю ділюсь знаннями, опитом, мудрістю, що допомагає вам знайти
+						свої
+						ресурси і втілити бажане у життя .</p>
+					<p class="about-me__text text">Моя життєва позиція: «Роби до себе , що можеш тут і зараз і ти не
+						помітиш
+						як будеш там де бажаєш!»</p>
+					<p class="about-me__text text">Жду вас на своїх консультаціях!</p>
+				</div>
+			</div>
+			<img class="header-bottom__photo" src="./images/photo-about-me.jpg" alt="About me">
+
+		</div>
+		<button class="header-bottom__btn-phone" type="submit">
+			<img src="./images/icon-phone.png" alt="Phone" width="45" height="45">
+		</button>
+	</header>
+	<main class="main-page">
+		<section class="main-page__about-me about-me container">
+			<h2 class="about-me__subtitle subtitle">Щоб бачити навкруги щасливих
+				<br>людей, я прийшла в психологію
+			</h2>
+			<div class="about-me__desc">
+				<p class="about-me__text-background">Допомога людям</p>
+				<div class="about-me__div-desc">
+					<p class="about-me__text text">В терапевтичні відносини ми вступаємо на партнерських умовах.
+						Я беру відповідальність, що зміни будуть, ви - відповідальність за виконання завдань і
+						систематичне
+						відвідування.
+						<br>Складаємо контракт по строках і з чіткими вашими змінами.
+					</p>
+					<ul class="about-me__list text">Як це відбувається:
+						<li class="about-me__item text">
+							визначаємо що не влаштовує в житті і бажаний кінцевий результат;
+						</li>
+						<li class="about-me__item text">
+							знаходимо причини, які заважають бути там, де бажаєте. Я даю експертне психологічне
+							розʼяснення;
+						</li>
+						<li class="about-me__item text">
+							виявляємо тригери, які перешкоджають отриманню бажаного. Проводжу дбайливу роботу в цій
+							області;
+						</li>
+						<li class="about-me__item text">
+							набуваєте нових звичок, які потрібні вам для бажаного результату;
+						</li>
+						<li class="about-me__item text">
+							ідете в новий опит за допомогою ефективних своїх дій.
+
+						</li>
+					</ul>
+					<p class="about-me__text text">Весь цей час я дбайливо супроводжую вас.
+						<br>Кінцева мета- ви в бажаній точці з опорою всередині себе!
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="main-page__servises servises banner" id="servises">
+			<div class="servises__сatalog container">
+				<span class="servises__nav site-navigation">
+					<a class="servises__link link-navigation" href="#">Головна</a>
+					<img class="servises__icon icon-arrow--right" src="./images/arrow-right.svg" alt="Arrow" width="24"
+						height="24">
+					<p class="servises__text-category page">Послуги</p>
+				</span>
+				<h1 class="servises__title title">Послуги психолога</h1>
+				<ul class="servises__list">
+					<li class="servises__item servises__item--radius-Tleft">
+						<div class="servises__item-content">
+							<a class="servises__title title-link title-link--hover" href="#">Індивідуальне
+								консультування психолога</a>
+							<p class="servises__text">Психологічну консультацію невірно зіставляти з дружньою
+								бесідою
+								«на кухні» за чашкою чаю.
+								В процесі я застосовую свої
+								знання для експрес-аналізу ситуації клієнта і розширюю свідоме розуміння.
+								Ми будемо працювати з вами над вашими глибинними емоційними переживаннями в приватному
+								порядку з дотриманням повної
+								конфіденційності.</p>
+							<span class="servises__nav site-navigation">
+								<a class="servises__link link-detail" href="#">Докладніше</a>
+								<img class="servises__icon icon-arrow--right" src="./images/arrow-right-white.svg"
+									alt="Arrow" width="9" height="9">
+							</span>
+						</div>
+						<h3 class="servises__title title-link title-link--position">Індивідуальне консультування
+							психолога
+						</h3>
+					</li>
+					<li class="servises__item servises__item--radius-Tright">
+						<div class="servises__item-content">
+							<a class="servises__title title-link title-link--hover" href="#">Консультація психолога
+								онлайн</a>
+							<p class="servises__text">До мене дуже часто звертаються люди з інших міст і країн з
+								проханням отримати консультацію. Іноді відрядження,
+								завантаження на роботі і постійні пробки не дозволяють відвідувати консультації
+								особисто. Тому я також пропоную
+								можливість консультування онлайн за допомогою Skype, Viber, WhatsApp, месенджерів. Також
+								можна використовувати телефон
+								для первинного спілкування, щоб вирішити, в якому форматі буде проходити сеанс.</p>
+							<span class="servises__nav site-navigation">
+								<a class="servises__link link-detail" href="#">Докладніше</a>
+								<img class="servises__icon icon-arrow--right" src="./images/arrow-right-white.svg"
+									alt="Arrow" width="9" height="9">
+							</span>
+						</div>
+						<h3 class="servises__title title-link title-link--position">Консультація психолога
+							онлайн
+						</h3>
+					</li>
+					<li class="servises__item servises__item--radius-Bleft">
+						<div class="servises__item-content">
+							<a class="servises__title title-link title-link--hover" href="#">Сімейний психолог і робота
+								з парами</a>
+							<p class="servises__text">Моє завдання, як професійного сімейного психолога полягає в тому,
+								щоб виявити причини конфліктів, порушених відносин і
+								допомогти родині налагодити гармонійні взаємини, щоб надалі моя допомога родині вже не
+								знадобилася. Первинна
+								консультація психолога відбувається в зручному для вас форматі і в зручний час. Вона
+								допоможе виробити стратегію
+								подальших консультацій, підібрати дієві методики роботи.</p>
+							<span class="servises__nav site-navigation">
+								<a class="servises__link link-detail" href="#">Докладніше</a>
+								<img class="servises__icon icon-arrow--right" src="./images/arrow-right-white.svg"
+									alt="Arrow" width="9" height="9">
+							</span>
+						</div>
+						<h3 class="servises__title title-link title-link--position">Сімейний психолог і робота
+							з парами
+						</h3>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="main-page__prices prices container" id="prices">
+			<span class="prices__nav site-navigation">
+				<a class="prices__link link-navigation" href="#">Головна</a>
+				<img class="prices__icon icon-arrow--right" src="./images/arrow-right.svg" alt="Arrow" width="24"
+					height="24">
+				<p class="prices__text-category page">Ціни на послуги</p>
+			</span>
+			<h1 class="prices__title title">Ціни на послуги психолога</h1>
+			<ul class="prices__list">
+				<li class="prices__item">
+					<div class="prices__div-time">
+						<img class="prices__clock" src="./images/clock.png" alt="Clock" width="16" height="16">
+						<p class="prices__time">50-60 хв.</p>
+					</div>
+					<div class="prices__div">
+						<p class="prices__selection">Індивідуальна консультація</p>
+						<p class="prices__cost">50$</p>
+					</div>
+				</li>
+				<li class="prices__item">
+					<div class="prices__div-time">
+						<img class="prices__clock" src="./images/clock.png" alt="Clock" width="16" height="16">
+						<p class="prices__time">90-100 хв.</p>
+					</div>
+					<div class="prices__div">
+						<p class="prices__selection">Cімейна консультація</p>
+						<p class="prices__cost">100$</p>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<section class="main-page__education education container" id="education">
+			<span class="education__nav site-navigation">
+				<a class="education__link link-navigation" href="#">Головна</a>
+				<img class="education__icon icon-arrow--right" src="./images/arrow-right.svg" alt="Arrow" width="24"
+					height="24">
+				<p class="education__text-category page">Дипломи</p>
+			</span>
+			<h1 class="education__title title">Дипломи</h1>
+			<ul class="education__list">
+				<li class="education__item">
+					<img class="education__certificate" src="./images/photo-one.jpg" alt="Сertificate">
+				</li>
+				<li class="education__item">
+					<img class="education__certificate" src="./images/photo-two.jpg" alt="Сertificate">
+				</li>
+				<li class="education__item">
+					<img class="education__certificate" src="./images/photo-three.jpg" alt="Сertificate">
+				</li>
+				<li class="education__item">
+					<img class="education__certificate" src="./images/photo-four.jpg" alt="Сertificate">
+				</li>
+			</ul>
+		</section>
+		<section class="main-page__articles articles container" id="articles">
+			<span class="articles__nav site-navigation">
+				<a class="articles__link link-navigation" href="#">Головна</a>
+				<img class="articles__icon icon-arrow--right" src="./images/arrow-right.svg" alt="Arrow" width="24"
+					height="24">
+				<p class="articles__text-category page">Блог</p>
+			</span>
+			<h1 class="articles__title title">Блог</h1>
+			<ul class="articles__list-content">
+				<li class="articles__item-content articles__item">
+					<img class="articles__item-img--main" src="./images/article_one.webp" alt="Article img">
+					<span class="articles__item-span">
+						<img class="articles__item-img--time" src="./images/hourglass.png" alt="Article time">
+						<p class="articles__item-read--text">6,5 хвилин на читання</p>
+					</span>
+					<p class="articles__item-title">Відчуття психологічної грудки</p>
+					<p class="articles__item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+						repellat ullam suscipit minus animi commodi beatae quis ipsa.</p>
+					<span class="articles__item-span--more">
+						<a class="articles__item-btn-more" href="#">Докладніше</a>
+						<img class="articles__item icon-arrow--right" src="./images/arrow-right.svg" alt="Arrow"
+							width="17" height="17">
+					</span>
+				</li>
+				<li class="articles__item-content articles__item">
+					<img class="articles__item-img--main" src="./images/article_one.webp" alt="Article img">
+					<span class="articles__item-span">
+						<img class="articles__item-img--time" src="./images/hourglass.png" alt="Article time">
+						<p class="articles__item-read--text">6,5 хвилин на читання</p>
+					</span>
+					<p class="articles__item-title">Відчуття психологічної грудки</p>
+					<p class="articles__item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+						repellat ullam suscipit minus animi commodi beatae quis ipsa.</p>
+					<span class="articles__item-span--more">
+						<a class="articles__item-btn-more" href="#">Докладніше</a>
+						<img class="articles__item icon-arrow--right" src="./images/arrow-right.svg" alt="Arrow"
+							width="17" height="17">
+					</span>
+				</li>
+			</ul>
+		</section>
+		<section class="main-page__reviews reviews  banner" id="reviews">
+			<div class="reviews__сatalog container">
+				<span class="reviews__nav site-navigation">
+					<a class="reviews__link link-navigation" href="#">Головна</a>
+					<img class="reviews__icon icon-arrow--right" src="./images/arrow-right.svg" alt="Arrow" width="24"
+						height="24">
+					<p class="reviews__text-category page">Відгуки</p>
+				</span>
+				<h1 class="reviews__title title">Відгуки</h1>
+				<p class="reviews__text text">У моїй практиці мені довелося працювати із сотнями різних людей.
+					Різний соціальний статус, вік та місце проживання.
+					<br>Відгуки про психолога дають змогу побачити, як моя діяльність сприймається моїми клієнтами. Для
+					мене
+					зворотний зв'язок
+					від клієнта – це матеріал для саморефлексії та розвитку.
+				</p>
+				<ul class="reviews__list">
+					<li class="reviews__item">
+						<img class="reviews__img" src="./images/photo_reviews-one.jpg" alt="Reviews">
+					</li>
+					<li class="reviews__item">
+						<img class="reviews__img" src="./images/photo_reviews-two.jpg" alt="Reviews">
+					</li>
+					<li class="reviews__item">
+						<img class="reviews__img" src="./images/photo_reviews-three.jpg" alt="Reviews">
+					</li>
+					<li class="reviews__item">
+						<img class="reviews__img" src="./images/photo_reviews-four.jpg" alt="Reviews">
+					</li>
+					<li class="reviews__item">
+						<img class="reviews__img" src="./images/photo_reviews-five.jpg" alt="Reviews">
+					</li>
+					<li class="reviews__item">
+						<img class="reviews__img" src="./images/photo_reviews-six.jpg" alt="Reviews">
+					</li>
+					<li class="reviews__item">
+						<img class="reviews__img" src="./images/photo_reviews-seven.jpg" alt="Reviews">
+					</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+	<footer class="main-page__footer footer  container" id="contant">
+		<div class="footer__columns">
+			<a class="header-top__logo-link logo" href="#">
+				<img class="logo__img" src="./images/logo.png" alt="Logo" width="32" height="32">
+				<div class="logo__div-text">
+					<span class="logo__title">Психолог</span>
+					<p class="logo__subtitle">Яна Капля</p>
+				</div>
+			</a>
+			<p class="footer__conf text">Персональний сайт практикуючого психолога і психотерапевта Яни Каплі.
+			</p>
+			<button class="btn__outline" type="submit">Записатися</button>
+			<a class="footer__link" href="#">Політика конфіденційності</a>
+			<a class="footer__link" href="#">Мапа сайту</a>
+		</div>
+		<div class="footer__columns">
+			<h2 class="footer__columns-title">Меню</h2>
+			<ul class="footer__columns-list">
+				<li class="footer__columns-select">
+					<a class="footer__columns-link--select" href="#">Про мене</a>
+				</li>
+				<li class="footer__columns-select">
+					<a class="footer__columns-link--select" href="#">Послуги</a>
+				</li>
+				<li class="footer__columns-select">
+					<a class="footer__columns-link--select" href="#">Ціни</a>
+				</li>
+				<li class="footer__columns-select">
+					<a class="footer__columns-link--select" href="#">Дипломи</a>
+				</li>
+				<li class="footer__columns-select">
+					<a class="footer__columns-link--select" href="#">Статті</a>
+				</li>
+				<li class="footer__columns-select">
+					<a class="footer__columns-link--select" href="#">Відгуки</a>
+				</li>
+				<li class="footer__columns-select">
+					<a class="footer__columns-link--select" href="#">Контакти</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footer__columns">
+			<h2 class="footer__columns-title">Час роботи</h2>
+			<p class="footer__columns-schedule">Пн-Пт: 10:00–20:00,</p>
+			<p class="footer__columns-schedule">Сб-Нд: вихідні</p>
+		</div>
+		<div class="footer__columns">
+			<h2 class="footer__columns-title">Контакти</h2>
+			<ul class="footer__columns-list">
+				<li class="footer__columns-contact">
+					<img src="./images/location.png" alt="Columns" width="27" height="27">
+					<p class="footer__columns-contact--text">04212, м. Київ,
+						вул. Левка Лук'яненка, 21
+						мікрорайон Оболонь
+						станція метро Мінська</p>
+				</li>
+				<li class="footer__columns-contact">
+					<img src="./images/notification.png" alt="Columns" width="27" height="27">
+					<p class="footer__columns-contact--text">info@elenashevchuk.com</p>
+				</li>
+				<li class="footer__columns-contact">
+					<img src="./images/phone.png" alt="Columns" width="27" height="27">
+					<p class="footer__columns-contact--text">+38 (096) 660-90-90</p>
+				</li>
+				<li class="footer__columns-contact">
+					<a href="#">
+						<img src="./images/instagram.png" alt="instagram" width="27" height="27">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+</body>
+
+</html>
